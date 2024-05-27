@@ -1,4 +1,355 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: "Montserrat";
+}
+
+body {
+  padding: 70px 197px;
+  background-color: #e0e0e0;
+}
+
+#presentation {
+  height: 311px;
+  width: 1046px;
+  border-radius: 12px;
+  background-color: antiquewhite;
+  display: flex;
+  gap: 34px;
+}
+
+#profilePicture {
+  width: 271.86px;
+  height: 266.14px;
+  border-radius: 12px;
+  margin: 22px 34px 23px 0px;
+}
+
+#contact {
+  display: flex;
+  justify-content: center;
+  gap: 347px;
+  margin-top: 22px;
+  margin-bottom: 32px;
+}
+
+#text {
+  width: 658.86px;
+  height: 110px;
+  font-family: Montserrat;
+  font-size: 18px;
+  line-height: 21.94px;
+  color: #828282;
+}
+
+#CV {
+  display: flex;
+
+  gap: 34px;
+}
+
+#skills {
+  margin-top: 42px;
+  height: 303px;
+  width: 415px;
+  background-color: antiquewhite;
+  border-radius: 12px;
+}
+
+#titleSkills {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.94px;
+  text-align: left;
+  padding-bottom: 17px;
+}
+
+#codeTypes {
+  font-family: Montserrat;
+  font-size: 100px;
+  font-weight: 500;
+  line-height: 19.5px;
+  display: flex;
+  justify-content: center;
+}
+.codeType {
+  padding-bottom: 17px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.5px;
+  text-align: left;
+}
+
+#blog {
+  padding: 18px;
+}
+#titleCSS {
+  width: 178px;
+  height: 87px;
+  font-family: Montserrat;
+  font-size: 24px;
+}
+#howTo {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 50px;
+}
+#pictureCSS {
+  width: 396px;
+  height: 321px;
+  border-radius: 12px;
+  margin-top: 41px;
+}
+#textCSS {
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 19.5px;
+  width: 492px;
+  height: 120px;
+  color: #828282;
+}
+
+#titleHobbies {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29.26px;
+  text-align: left;
+  color: #4f4f4f;
+  margin-bottom: 26px;
+}
+
+#hobbies {
+  margin-top: 42px;
+  height: 836px;
+  width: 415px;
+  background-color: white;
+  border-radius: 12px;
+}
+
+.hobbiesPictures {
+  width: 379.66px;
+  height: 139px;
+  border-radius: 12px;
+}
+
+.activities {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.94px;
+  text-align: left;
+  color: #333333;
+  margin-top: 26px;
+  margin-bottom: 10px;
+}
+
+.comment {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.5px;
+  text-align: left;
+  color: #828282;
+  margin-bottom: 36px;
+}
+
+#titleExperience {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29.26px;
+  text-align: left;
+  color: #4f4f4f;
+  margin-bottom: 44px;
+  margin-left: 31px;
+}
+
+#brands {
+  display: flex;
+  padding-left: 31px;
+}
+
+.imageExperiences {
+  width: 119.25px;
+  height: 84px;
+  padding-bottom: 114px;
+  padding-right: 23px;
+}
+
+.jobs {
+  margin-top: 12px;
+}
+
+.jobInformations {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.5px;
+  text-align: left;
+  color: #828282;
+  width: 387.57px;
+  height: 80px;
+  margin-top: 33px;
+}
+#titleProject {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.94px;
+  text-align: left;
+  padding: 22px 922px 16px 22px;
+}
+#codingSkills {
+  display: flex;
+  position: absolute;
+  gap: 16px;
+  margin-left: 22px;
+}
+
+.languages {
+  width: 85px;
+  height: 33px;
+  border: 1px solid black;
+  border-radius: 12px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 22px;
+}
+
+.responsiveBox {
+  width: 118px;
+  height: 33px;
+  border: 1px solid #2f80ed;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2f80ed;
+  color: white;
+}
+
+#skills {
+  width: 415.02px;
+  height: 303px;
+  border-radius: 12px;
+  background-color: white;
+}
+#blog {
+  margin-top: 42px;
+  width: 596px;
+  height: 656px;
+  background-color: white;
+  border-radius: 12px;
+}
+
+#hobbies {
+  width: 415px;
+  height: 836px;
+  background-color: white;
+  border-radius: 12px;
+  position: relative;
+  bottom: 500px;
+}
+
+#experiences {
+  background-color: white;
+  border-radius: 12px;
+  width: 592px;
+  height: 482.04px;
+}
+
+#project {
+  background-color: white;
+  width: 1046px;
+  height: 115px;
+  border-radius: 12px;
+  margin-left: 197px;
+  margin-right: 197px;
+}
+
+#content {
+  display: flex;
+  justify-content: center;
+  gap: 30.5px;
+  margin-top: 36px;
+}
+
+.personalProject {
+  background-color: white;
+  width: 328.49px;
+  height: 568px;
+  border-radius: 12px;
+  padding: 18px;
+}
+
+.billypicture {
+  width: 327px;
+  height: 250px;
+  border-radius: 12px;
+  display: flex;
+}
+
+h3 {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.5px;
+  text-align: left;
+  color: #4f4f4f;
+  padding-top: 24px;
+}
+
+h1 {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29.26px;
+  text-align: left;
+  color: #333333;
+  padding-top: 22px;
+}
+
+.explanations {
+  color: #828282;
+  width: 292px;
+  height: 100px;
+  font-size: 16px;
+  line-height: 19.5px;
+  padding-top: 22px;
+  padding-bottom: 41px;
+}
+
+.button {
+  /* margin-top: 41px; */
+  display: flex;
+  gap: 11px;
+
+  border-radius: 12px;
+}
+.demoButton {
+  background-color: #2f80ed;
+  color: white;
+  border-color: white;
+  width: 135px;
+  height: 53px;
+  border-radius: 12px;
+  font-family: Montserrat;
+  font-size: 18px;
+}
+
+.codeButton {
+  background-color: white;
+  color: #2f80ed;
+  border-color: #2f80ed;
+  width: 135px;
+  height: 53px;
+  border-radius: 12px;
+  font-family: Montserrat;
+  font-size: 18px;
 }
