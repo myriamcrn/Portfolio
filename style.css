@@ -1,7 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
 }
 
 body {
@@ -42,7 +42,7 @@ body {
   color: #828282;
 }
 
-#CV {
+#cv {
   display: flex;
 
   gap: 34px;
@@ -85,23 +85,27 @@ body {
 #blog {
   padding: 18px;
 }
+
 #titleCSS {
   width: 178px;
   height: 87px;
   font-family: Montserrat;
   font-size: 24px;
 }
+
 #howTo {
   display: flex;
   justify-content: flex-end;
   margin-bottom: 50px;
 }
+
 #pictureCSS {
   width: 396px;
   height: 321px;
   border-radius: 12px;
   margin-top: 41px;
 }
+
 #textCSS {
   font-family: Montserrat;
   font-size: 16px;
@@ -194,6 +198,7 @@ body {
   height: 80px;
   margin-top: 33px;
 }
+
 #titleProject {
   font-family: Montserrat;
   font-size: 18px;
@@ -202,6 +207,7 @@ body {
   text-align: left;
   padding: 22px 922px 16px 22px;
 }
+
 #codingSkills {
   display: flex;
   position: absolute;
@@ -240,6 +246,7 @@ body {
   border-radius: 12px;
   background-color: white;
 }
+
 #blog {
   margin-top: 42px;
   width: 596px;
@@ -253,7 +260,6 @@ body {
   height: 836px;
   background-color: white;
   border-radius: 12px;
-  position: relative;
   bottom: 500px;
 }
 
@@ -269,27 +275,27 @@ body {
   width: 1046px;
   height: 115px;
   border-radius: 12px;
-  margin-left: 197px;
   margin-right: 197px;
 }
 
 #content {
   display: flex;
   justify-content: center;
-  gap: 30.5px;
+  width: 100%;
+  gap: 5%;
   margin-top: 36px;
 }
 
 .personalProject {
   background-color: white;
-  width: 328.49px;
+  width: 30%;
   height: 568px;
   border-radius: 12px;
   padding: 18px;
 }
 
 .billypicture {
-  width: 327px;
+  /* width: 327px; */
   height: 250px;
   border-radius: 12px;
   display: flex;
@@ -317,7 +323,7 @@ h1 {
 
 .explanations {
   color: #828282;
-  width: 292px;
+  /* width: 292px; */
   height: 100px;
   font-size: 16px;
   line-height: 19.5px;
@@ -332,6 +338,7 @@ h1 {
 
   border-radius: 12px;
 }
+
 .demoButton {
   background-color: #2f80ed;
   color: white;

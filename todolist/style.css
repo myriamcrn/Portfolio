@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  padding-top: 100px;
+  width: 600px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+nav {
+  border-bottom: 1px solid gray;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding: 10px;
+}
+
+#menu li {
+  cursor: pointer;
+}
+
+#createTask {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  width: 100%;
+  gap: 25px;
+}
+
+#createTask input {
+  width: 476px;
+  height: 56px;
+  gap: 0px;
+  border-radius: 12px;
+  outline: none;
+  border-width: 1px;
+  padding: 0 10px;
+}
+
+#createTask button {
+  background-color: #2f80ed;
+  color: white;
+  width: 109px;
+  height: 56px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+#tasks {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex {
+  display: flex;
+  gap: 30px;
+  margin: 25px 0;
+}
+
+.cestfait {
+  text-decoration: line-through;
+}
+
+.selected {
+  font-weight: bold;
+  border-bottom: 2px solid #2f80ed;
+}
+
+.none {
+  display: none;
+}
